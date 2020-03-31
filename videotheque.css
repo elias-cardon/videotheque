@@ -1,0 +1,80 @@
+body
+{
+	background: linear-gradient(45deg, #00dbde, #fc00ff)
+}
+/*barnav*/
+nav
+{
+    margin-top: 29px;
+    margin-left: 15px;
+    padding: 0;
+}
+nav ul
+{
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+nav ul li
+{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border: 0px;
+}
+nav a
+{
+    display: block;
+    text-decoration: none;
+    color: #001B80;
+    border-bottom: 3px solid transparent;
+    margin-left: 23px;
+    padding: 5px;
+}
+nav a:hover
+{
+    color: #358E98;
+    border-bottom: 3px solid #358E98;
+}
+.sous
+{
+    display: none;
+    box-shadow: 0px 1px 3px #358E98;
+    background-color: white;
+    position: absolute;
+    text-align: left;
+}
+nav ul li:hover .sous
+{
+    display: block;
+}
+.sous li
+{
+    width: 100%;
+    text-align: left;
+}
+.deroulant::after
+{
+    content:" ▼";
+    color: #358E98;
+    font-size: 15px;
+}
+
+h1
+{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    color: #3547F4;
+    font-size: 45px;
+}
+h3
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+    color: #46bdcb;
+    font-size: 15px;
+}
+/*Fin barnav*/
