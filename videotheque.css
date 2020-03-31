@@ -64,13 +64,11 @@ h1
     color: #3547F4;
     font-size: 45px;
 }
-h3
-{
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-family: monospace;
-    color: #46bdcb;
-    font-size: 15px;
-}
 /*Fin barnav*/
+
+/*categorieX*/
+.background
+{
+	background: linear-gradient(45deg, #00dbde, #fc00ff)
+}
+/*Fin categorieX*/
