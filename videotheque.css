@@ -144,6 +144,9 @@ h1
 /*categorieX*/
 .background
 {
-	background: linear-gradient(45deg, #00dbde, #fc00ff)
+    color:black;
+    background-color:white;
+    background-image:url(Yes.png);
+    background-repeat:no-repeat;
 }
 /*Fin categorieX*/
