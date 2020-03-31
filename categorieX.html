@@ -4,22 +4,82 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="videotheque.css">
-	<title>Bienvenue dans les 80's</title>
+	<title>Face A & Face B</title>
     <link rel="shortcut icon" type="image/x-icon" href="80.png" />
 </head>
 <body class="background">
 	<header>
-    	<h1><u>Vidéothèque</u></h1>
+    	<h1><u>Double Face</u></h1> <!--Parce qu'une cassette a un face A et une face B-->
         <nav>
             <ul>
                 <li><a class="deroulant" href="fansite.html">Accueil</a>
                     <ul class="sous">
                         <li><a href="categorie1.html">Catégorie 1</a></li>
-                        <li><a href="categorieX.html">Catégorie 2</a></li>
+                        <li><a href="categorieX.html">Double Face</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
     </header>
+    <div class="wrapper">
+            <section id="section1">
+                 <a href="#section2" class="arrow1"></a>
+
+                    <div class="item">
+                    <video controls poster="OTR.jpg" width="100%" height="100%">
+                        <source src="Old-Town-Road.mp4" type="video/mp4"> <!--On se loue une cassette ?-->
+                    </video>
+                    </div>
+                    <div class="item">
+                    <video controls poster="video 80/Alejandro.jpg" width="100%" height="100%">
+                        <source src="video 80/Alejandro.mp4" type="video/mp4"> <!-- Les gens ils rembobinent jamais avant de la rendre, c'est chiant.-->
+                    </video>
+                    </div>
+                    <div class="item">
+                    <video controls poster="video 80/Havana.jpg" width="100%" height="100%">
+                        <source src="video 80/Havana.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                <a href="#section2" class="arrow2"></a>
+            </section>
+            <section id="section2">
+                <a href="#section1" class="arrow1"></a>
+
+                <div class="item">
+                    <video controls poster="video 80/Somebody.jpg" width="100%" height="100%">
+                        <source src="video 80/Somebody.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video controls poster="video 80/Wrecking-ball.jpg" width="100%" height="100%">
+                        <source src="video 80/Wrecking-ball.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video controls poster="video 80/Bang-Bang.jpg" width="100%" height="100%">
+                        <source src="video 80/Bang-Bang.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <a href="#section1" class="arrow2"></a>
+
+            </section>
+        </div>
+        <footer>
+        <div class="photo">
+           <img src="src/img/film-596009_1920.jpg" alt= "photo illustrative" class="picture">
+        </div>
+
+        <div class="category">
+            <a href="categorie1.html"><span>Catégorie 1</span></a>
+            <a href="categorieX.html"><span>Double Face</span></a>
+        </div>
+
+        <div class="socialmedia">
+            <img src="src/img/facebook.png" alt="logo facebook" class="icon">
+            <img src="src/img/instagram-sketched.png" alt="logo instagram" class="icon" >
+            <img src="src/img/twitter.png" alt="logo twitter" class="icon">
+        </div>
+
+    </footer>
 </body>
 </html>
