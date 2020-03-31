@@ -1,4 +1,151 @@
 *{
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding:0;
+}
 /*MAIN PAGE1*/
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    
+}
+section{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 20px 0;
+    position: relative;
+    padding-top: 1em
+}
+.item{
+    padding;:0 3%;
+    transition-duration: 250ms all;
+    margin:0 2%;
+}
+.item:hover{
+    transform:scale(1.2)
+}
+/*LIEN SECTION*/
+a{
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    width: 3em;
+    
+    height: 100%;
+    color:white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.arrow1{
+    left: 0;
+    top:0;  
+  
+}
+.arrow2{
+    right: 0;
+    top:0;
+  
+
+}
+
+.arrow1:before{
+    content: "<";
+    font-family: "fontello";
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.arrow2:before{
+    content:">";
+    font-family: "fontello";
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+/*LIEN SECTION END */
+
+/*barnav*/
+nav
+{
+    margin-top: 29px;
+    margin-left: 15px;
+    padding: 0;
+}
+nav ul
+{
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+nav ul li
+{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border: 0px;
+}
+nav a
+{
+    display: block;
+    text-decoration: none;
+    color: #001B80;
+    border-bottom: 3px solid transparent;
+    margin-left: 23px;
+    padding: 5px;
+}
+nav a:hover
+{
+    color: #358E98;
+    border-bottom: 3px solid #358E98;
+}
+.sous
+{
+    display: none;
+    box-shadow: 0px 1px 3px #358E98;
+    background-color: white;
+    position: absolute;
+    text-align: left;
+}
+nav ul li:hover .sous
+{
+    display: block;
+}
+.sous li
+{
+    width: 100%;
+    text-align: left;
+}
+.deroulant::after
+{
+    content:" ▼";
+    color: #358E98;
+    font-size: 15px;
+}
+
+h1
+{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    color: #3547F4;
+    font-size: 45px;
+}
+h3
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+    color: #46bdcb;
+    font-size: 15px;
+}
+/*Fin barnav*/
