@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="videotheque.css">
+    <link rel="stylesheet" href="src/fontello.css">
     <title>Accueil</title>
 </head>
 <body>
     <header>
-    	<h1><u>Vidéothèque</u></h1>
+        <h1><u>Vidéothèque</u></h1>
         <nav>
             <ul>
                 <li><a class="deroulant" href="fansite.html">Accueil</a>
@@ -19,9 +20,61 @@
                 </li>
             </ul>
         </nav>
+        
+
     </header>
-    <video controls muted poster="OTR.jpg" width="600px">
-    	<source src="Old-Town-Road.mp4" type="video/mp4">
-    </video>
+    <main>
+        <div class="wrapper">
+            <section id="section1">
+                 <a href="#section2" class="arrow1"></a>
+
+                    <div class="item">
+                    <video controls muted poster="OTR.jpg" width="100%" height="100%">
+                        <source src="Old-Town-Road.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                    <div class="item">
+                    <video controls muted poster="OTR.jpg" width="100%" height="100%">
+                        <source src="Old-Town-Road.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                    <div class="item">
+                    <video controls muted poster="OTR.jpg" width="100%" height="100%">
+                        <source src="Old-Town-Road.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                <a href="#section2" class="arrow2"></a>
+            </section>
+            <section id="section2">
+                <a href="#section1" class="arrow1"></a>
+
+                <div class="item">
+                    <video controls muted width=100% height="100%">
+                        <source src="src/video/MagneticTape4942.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video controls muted width=100% height="100%">
+                        <source src="src/video/MagneticTape4942.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="item">
+                    <video controls muted width=100% height="100%">
+                        <source src="src/video/MagneticTape4942.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <a href="#section1" class="arrow2"></a>
+
+            </section>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+    	
+  
+    
 </body>
 </html>
