@@ -189,7 +189,11 @@ footer{
     text-align: center;
     color: #A100B6
 }
-
+.catx p
+{
+    border: 2px solid #CC46DE;
+    border-radius: 4px;
+}
 .article1{
     display: flex;
     flex-flow:row wrap ;
