@@ -114,6 +114,21 @@ header{
     padding:2em 0;
     width:100%;
 }
+.categoryh{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.categoryh a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 8%;
+    border-radius: 50%;   
+}
+.categoryh a:hover{
+    background: #ff3f34;
+}
 .heading{
     display: grid;
     grid-template-columns: 40% 60%;
