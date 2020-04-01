@@ -10,6 +10,7 @@ body{
     margin: 0;
     padding:0;
     font-family:'Open Sans', sans-serif; 
+    
 }
 /*MAIN PAGE1*/
 main{
@@ -263,6 +264,7 @@ footer{
 .catx video{
     height: 100%;
 }
+
 /*Categorie1*/
 #cat1{
     display: flex;
@@ -270,6 +272,10 @@ footer{
 }
 #cat1 h2{
     text-align: center;
+}
+#cat1 video{
+    min-width: 100%;
+    min-height: 100%;
 }
 .videocontainer1{
     display: flex;
@@ -279,14 +285,17 @@ footer{
     background:#05c46b;
     box-shadow: 5px -2px 9px 3px #000000;
 
+
 }
 .videocontainer2{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction:row-reverse;
     background: #00d8d6;
     text-align: center;
     margin:2% 2%;
+    
 }
+
  .wrap{
     padding-left: 1em;
     padding-bottom: 3em;
@@ -296,6 +305,7 @@ footer{
    
 .description{
     margin-left: 1em;
+    
     
 }
 .subtitle p{
