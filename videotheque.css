@@ -196,6 +196,8 @@ footer{
     max-width: 1400px;
     margin: auto;
     justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 .T{
     width: 500px;
@@ -204,6 +206,7 @@ footer{
     max-width: 100%;
     margin: auto;
     padding: 20px;
+
 }
 .content-video {
     position: relative;
@@ -211,6 +214,7 @@ footer{
     padding-top: 30px;
     height: 0;
     overflow: hidden;
+
 }
 .content-video video {
     position: absolute;
@@ -230,6 +234,8 @@ footer{
     max-width: 1400px;
     margin: auto;
     justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 .T{
