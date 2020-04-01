@@ -15,18 +15,34 @@ body{
 main{
     background:#808e9b;
     padding-top: 3em;
+    
    
 }
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(3, 100%);
+    grid-template-rows: repeat(2 100%);
+    grid-template-columns: repeat(2, 100%);
     overflow: hidden;
     scroll-behavior: smooth;
+    padding-bottom: 4em;
     
 }
-section{
+#title1, #title2{
+    text-align: center;
+    color: white;
+}
+#title1{
+    grid-row: 1;
+    
+}
+#title2{
+    grid-row: 1;
+    grid-column: 2;
+}
+.sections{
     width:100%;
     display: grid;
+    grid-row: 2;
     grid-template-columns: repeat(3, auto);
     margin: 20px 0;
     position: relative;
@@ -167,26 +183,10 @@ nav ul li:hover .sous
     font-size: 15px;
 }
 
-h1
-{
-    padding: 0;
-    margin: 0;
-    font-family: monospace;
-    color: #3547F4;
-    font-size: 45px;
-}
 /*Fin barnav*/
 
-/*categorieX*/
-.background
-{
-    color:black;
-    background-color:white;
-    background-image:url(Yes.png);
-    background-repeat:no-repeat;
-}
-<<<<<<< HEAD
-/*Fin barnav*/
+
+
 /*HEADER END*/
 
 
@@ -222,10 +222,39 @@ footer{
     background: #ff3f34;
 }
 
-.icon{
-    margin:3%;
+
+
+/*categorieX*/
+.background
+{
+    color:black;
+    background-color:white;
+    background-image:url(Yes.png);
+    background-repeat:no-repeat;
 }
 
-=======
-/*Fin categorieX*/
->>>>>>> 9c95712114bf06d50e5eae540850e8a7c812ba91
+/*Categorie1*/
+#cat1 h2{
+    text-align: center;
+}
+.bigvideo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin:0 2%;
+    background:#d2dae2 ;
+    box-shadow: 5px -2px 9px 3px #000000;
+
+}
+ .wrap{
+    padding-left: 1em;
+    background-color: salmon;
+}
+   
+.description{
+    margin-left: 1em;
+    
+
+
+}
