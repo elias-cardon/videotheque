@@ -213,9 +213,10 @@ footer{
     font-weight: bold;
 }
 .category a{
+    text-align: center;
     text-decoration: none;
     color: white;
-    padding: 2em;
+    padding: 8%;
     border-radius: 50%;;    
 }
 .category a:hover{
@@ -234,27 +235,41 @@ footer{
 }
 
 /*Categorie1*/
+#cat1{
+    display: flex;
+    flex-direction: column;
+}
 #cat1 h2{
     text-align: center;
 }
-.bigvideo1{
+.videocontainer1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     text-align: center;
-    margin:0 2%;
-    background:#d2dae2 ;
+    margin:2% 2%;
+    background:#05c46b;
     box-shadow: 5px -2px 9px 3px #000000;
 
 }
+.videocontainer2{
+    display: flex;
+    flex-direction: row-reverse;
+    background: #00d8d6;
+    text-align: center;
+    margin:2% 2%;
+}
  .wrap{
     padding-left: 1em;
-    background-color: salmon;
+    padding-bottom: 3em;
+    padding-right: 1em;
+   
 }
    
 .description{
     margin-left: 1em;
     
-
-
+}
+.subtitle p{
+    padding-bottom: 2%;
+    margin: 0;
 }
