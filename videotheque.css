@@ -226,14 +226,43 @@ footer{
 
 
 /*categorieX*/
-.background
+.catx h2
 {
-    color:black;
-    background-color:white;
-    background-image:url(Yes.png);
-    background-repeat:no-repeat;
+    text-align: center;
 }
 
+.article{
+    display: flex;
+    flex-flow:row wrap ;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: center;
+}
+.T{
+    width: 500px;
+}
+.block-video{
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+.content-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.content-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.catx video{
+    height: 100%;
+}
 /*Categorie1*/
 #cat1{
     display: flex;
@@ -268,8 +297,15 @@ footer{
 .description{
     margin-left: 1em;
     
+<<<<<<< HEAD
 }
 .subtitle p{
     padding-bottom: 2%;
     margin: 0;
 }
+=======
+
+
+}
+
+>>>>>>> 0754ef6ced9c40f8d2d06e0306bc15a6dc1727a0
