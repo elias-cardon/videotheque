@@ -109,6 +109,26 @@ section a{
 /*HEADER*/
 header{
     background:#1e272e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:2em 0;
+    width:100%;
+}
+.categoryh{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.categoryh a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 8%;
+    border-radius: 50%;   
+}
+.categoryh a:hover{
+    background: #ff3f34;
 }
 .heading{
     display: grid;
@@ -125,68 +145,6 @@ header img{
     padding-top: 1.5em;
     
 }
-
-/*barnav*/
-nav
-{
-    margin-top: 29px;
-    margin-left: 15px;
-    padding: 0;
-}
-nav ul
-{
-    padding: 0;
-    list-style-type: none;
-    text-align: left;
-}
-nav ul li
-{
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    border: 0px;
-}
-nav a
-{
-    display: block;
-    text-decoration: none;
-    color: #001B80;
-    border-bottom: 3px solid transparent;
-    margin-left: 23px;
-    padding: 5px;
-}
-nav a:hover
-{
-    color: #358E98;
-    border-bottom: 3px solid #358E98;
-}
-.sous
-{
-    display: none;
-    box-shadow: 0px 1px 3px #358E98;
-    background-color: white;
-    position: absolute;
-    text-align: left;
-}
-nav ul li:hover .sous
-{
-    display: block;
-}
-.sous li
-{
-    width: 100%;
-    text-align: left;
-}
-.deroulant::after
-{
-    content:" ▼";
-    color: #358E98;
-    font-size: 15px;
-}
-
-/*Fin barnav*/
-
-
 
 /*HEADER END*/
 
@@ -232,7 +190,7 @@ footer{
     text-align: center;
 }
 
-.article{
+.article1{
     display: flex;
     flex-flow:row wrap ;
     max-width: 1400px;
@@ -265,6 +223,44 @@ footer{
     height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.article2
+{
+    display: flex;
+    flex-flow:row wrap ;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: center;
+}
+
+.T{
+    width: 500px;
+}
+.block-video{
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+.content-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.content-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.catx video{
+    height: 100%;
+}
+
+>>>>>>> ef9f3a01441d346b6c873be2380fab8c69ae3998
 /*Categorie1*/
 #cat1{
     display: flex;
