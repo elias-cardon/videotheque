@@ -123,7 +123,7 @@ section a{
 }
 .descriptive_section section{
     width: 40%;
-    height: auto;
+    height: 50%;
     margin:1em;
     background: linear-gradient(90deg, rgba(128,142,155,1) 0%, rgba(84,101,227,1) 50%, rgba(128,142,155,1) 100%);
 }
@@ -215,7 +215,7 @@ footer{
     display: flex;
 }
 .icon{
-    padding-left: 8%;
+    padding-left: 1em;
     height: 32px;
 }
 
@@ -333,19 +333,19 @@ footer{
 }
 
 .wrap{
-    padding-left: 1em;
-    padding-bottom: 3em;
-    padding-right: 1em;
+    padding: 3em 1em;
+    margin: 0;
    
 }
    
 .description{
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: 0 1em;
     
     
 }
-.subtitle p{
+figcaption{
     padding-bottom: 2%;
     margin: 0;
+    font-weight: bold;
+    font-style: italic;
 }
