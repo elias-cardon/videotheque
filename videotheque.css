@@ -195,10 +195,15 @@ footer{
 
 
 /*categorieX*/
+.catx .titre
+{
+    text-align: center;
+    color: purple
+}
 .catx h2
 {
     text-align: center;
-    color: #A100B6
+    color: #AB04C1
 }
 .catx p
 {
@@ -242,6 +247,45 @@ footer{
     height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.article2
+{
+    display: flex;
+    flex-flow:row wrap ;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.T{
+    width: 500px;
+}
+.block-video{
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+.content-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.content-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.catx video{
+    height: 100%;
+}
+>>>>>>> a43a9f96a049f228a7a23bc530ecb01379a79350
 /*Categorie1*/
 
 #cat1{
