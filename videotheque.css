@@ -103,6 +103,12 @@ section a{
     font-size: 2em;
     
 }
+
+#section1 p
+{
+    text-align: center;
+}
+
 /*LIEN SECTION END */
 
 /*MAIN END*/
