@@ -1,5 +1,6 @@
 /*FONT*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
 /*FONT*/
 
 
@@ -109,35 +110,37 @@ section a{
 /*HEADER*/
 header{
     background:#1e272e;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding:2em 0;
+    padding-top:2em;
+    padding-bottom: 1em;
     width:100%;
 }
-.categoryh{
+header nav{
     display: flex;
     flex-direction: row;
-    font-weight: bold;
+    justify-content: center;
+
+
 }
-.categoryh a{
-    text-align: center;
+nav a{
     text-decoration: none;
-    color: white;
-    padding: 8%;
-    border-radius: 50%;   
+    padding:1em;
+    color:white;
+    font-weight: bold;
+    font-size: 1em;
 }
-.categoryh a:hover{
-    background: #ff3f34;
+nav a:hover{
+    background:#ff3f34 ;
 }
 .heading{
     display: grid;
-    grid-template-columns: 40% 60%;
-    text-align: start;    
+    grid-template-columns: 2fr 3fr;
+    text-align: start;   
+    padding-bottom: 1em; 
 }
 header h1{
     color: white;
     padding-top: 1.5em;
+    padding-left: 2%;
 
 }
 header img{
@@ -152,7 +155,7 @@ header img{
 
 /*FOOTER*/
 .photo .category .socialmedia{
-    width: 100%;
+    width: 30%;
 }
 .picture{
     width: 10vw;
@@ -182,6 +185,13 @@ footer{
     background: #ff3f34;
 }
 
+.socialmedia{
+    display: flex;
+}
+.icon{
+    padding-left: 8%;
+    height: 32px;
+}
 
 
 /*categorieX*/
@@ -223,55 +233,18 @@ footer{
     height: 100%;
 }
 
-<<<<<<< HEAD
-=======
-.article2
-{
-    display: flex;
-    flex-flow:row wrap ;
-    max-width: 1400px;
-    margin: auto;
-    justify-content: center;
-}
-
-.T{
-    width: 500px;
-}
-.block-video{
-    max-width: 100%;
-    margin: auto;
-    padding: 20px;
-}
-.content-video {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-.content-video video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.catx video{
-    height: 100%;
-}
-
->>>>>>> ef9f3a01441d346b6c873be2380fab8c69ae3998
 /*Categorie1*/
 #cat1{
     display: flex;
     flex-direction: column;
+    
 }
 #cat1 h2{
     text-align: center;
 }
 #cat1 video{
     min-width: 100%;
-    min-height: 100%;
+    min-height: 100%;u
 }
 .videocontainer1{
     display: flex;
