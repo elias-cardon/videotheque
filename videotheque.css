@@ -16,9 +16,7 @@ body{
 /*MAIN PAGE1*/
 main{
     background:#d2dae2;
-    padding-top: 3em;
-    
-   
+    padding-top: 3em;   
 }
 .wrapper{
     display: grid;
