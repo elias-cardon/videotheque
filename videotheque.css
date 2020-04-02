@@ -15,7 +15,7 @@ body{
 }
 /*MAIN PAGE1*/
 main{
-    background:#808e9b;
+    background:#d2dae2;
     padding-top: 3em;
     
    
@@ -31,7 +31,7 @@ main{
 }
 #title1, #title2{
     text-align: center;
-    color: white;
+    
 }
 #title1{
     grid-row: 1;
@@ -115,7 +115,7 @@ section a{
 
 /*HEADER*/
 header{
-    background:#1e272e;
+    background: linear-gradient(90deg, rgba(128,142,155,1) 0%, rgba(84,101,227,1) 50%, rgba(128,142,155,1) 100%);
     padding-top:2em;
     padding-bottom: 1em;
     width:100%;
@@ -172,7 +172,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     padding:2em 0;
-    background:#1e272e;
+    background: linear-gradient(90deg, rgba(128,142,155,1) 0%, rgba(84,101,227,1) 50%, rgba(128,142,155,1) 100%);
     width:100%;
 }
 .category{
@@ -239,6 +239,8 @@ footer{
 }
 .T{
     width: 500px;
+    padding-bottom: 1em;
+
 }
 .block-video{
     max-width: 100%;
@@ -265,47 +267,6 @@ footer{
     height: 100%;
 }
 
-<<<<<<< HEAD
-=======
-.article2
-{
-    display: flex;
-    flex-flow:row wrap ;
-    max-width: 1400px;
-    margin: auto;
-    justify-content: center;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #FF25F5
-}
-
-.T{
-    width: 500px;
-
-}
-.block-video{
-    max-width: 100%;
-    margin: auto;
-    padding: 20px;
-}
-.content-video {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-.content-video video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.catx video{
-    height: 100%;
-}
->>>>>>> ecd02f89a35dcf48c2caaec05fa1377905bfbae1
 /*Categorie1*/
 
 #cat1{
