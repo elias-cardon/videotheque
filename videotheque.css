@@ -195,10 +195,15 @@ footer{
 
 
 /*categorieX*/
+.catx .titre
+{
+    text-align: center;
+    color: purple
+}
 .catx h2
 {
     text-align: center;
-    color: #A100B6
+    color: #AB04C1
 }
 .catx p
 {
@@ -242,8 +247,6 @@ footer{
     height: 100%;
 }
 
-<<<<<<< HEAD
-=======
 .article2
 {
     display: flex;
@@ -280,8 +283,6 @@ footer{
 .catx video{
     height: 100%;
 }
-
->>>>>>> 5517b1a309d36414c59cc72d4b74643f9b23e1e2
 /*Categorie1*/
 #cat1{
     display: flex;
