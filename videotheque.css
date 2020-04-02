@@ -207,9 +207,20 @@ footer{
 }
 .catx p
 {
-    border: 2px solid #CC46DE;
+    border: 3px solid #A800A0;
     border-radius: 4px;
 }
+
+#bleu p
+{
+    background-color: #33D8D1;
+}
+
+#violet p
+{
+    background-color: #B018C8
+}
+
 .article1{
     display: flex;
     flex-flow:row wrap ;
@@ -218,6 +229,7 @@ footer{
     justify-content: center;
     border: 1px solid #ddd;
     border-radius: 4px;
+    background-color: #33C0D4;
 }
 .T{
     width: 500px;
@@ -256,10 +268,12 @@ footer{
     justify-content: center;
     border: 1px solid #ddd;
     border-radius: 4px;
+    background-color: #FF25F5
 }
 
 .T{
     width: 500px;
+
 }
 .block-video{
     max-width: 100%;
