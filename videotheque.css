@@ -20,7 +20,7 @@ main{
 }
 .wrapper{
     display: grid;
-    grid-template-rows: repeat(2, 100%);
+    grid-template-rows: repeat(2);
     grid-template-columns: repeat(2, 100%);
     overflow: hidden;
     scroll-behavior: smooth;
