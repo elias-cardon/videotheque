@@ -20,7 +20,7 @@ main{
 }
 .wrapper{
     display: grid;
-    grid-template-rows: repeat(2 100%);
+    grid-template-rows: repeat(2, 100%);
     grid-template-columns: repeat(2, 100%);
     overflow: hidden;
     scroll-behavior: smooth;
@@ -29,7 +29,16 @@ main{
 }
 #title1, #title2{
     text-align: center;
-    
+   
+}
+
+#title1 a{
+    text-decoration: none;
+    color: black;
+}
+#title2 a{
+    text-decoration: none;
+    color: black;
 }
 #title1{
     grid-row: 1;
@@ -46,7 +55,8 @@ main{
     grid-template-columns: repeat(3, auto);
     margin: 20px 0;
     position: relative;
-    padding-top: 1em
+    padding-top: 1em;
+    text-align: center;
 }
 .item{
     padding:0 3%;
@@ -116,11 +126,8 @@ section a{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-
-    
-
-
 }
+
 .descriptive_section section{
     width: 40%;
     height: 50%;
@@ -369,3 +376,59 @@ figcaption{
     font-weight: bold;
     font-style: italic;
 }
+
+/*RESPONSIVE*/
+@media screen and (max-width:480px){
+    .wrapper{
+        display: grid;
+        grid-template-rows: 2;
+        grid-template-columns: repeat(2, 100%);
+        overflow: hidden;
+        scroll-behavior: smooth;
+    
+    }
+    .sections{
+        width: 100%;
+        display: grid;
+        grid-row: 2;
+        grid-template-rows: repeat(3 auto);
+        position: relative;
+        
+    }
+
+    #video1{
+        grid-row: 1;
+        grid-column: 1;
+        padding-bottom: 3%;
+
+    }
+    #video2{
+        grid-row: 2;
+        grid-column: 1;
+        padding-bottom: 3%;
+    }
+    #video3{
+        grid-row: 3;
+        grid-column: 1;
+        padding-bottom: 3%;
+
+    }
+
+    #video4{
+        grid-column: 2;
+        grid-row: 1;
+        padding-bottom: 3%;
+    }
+    #video5{
+        grid-column: 2;
+        grid-row: 2;
+        padding-bottom: 3%;
+    }
+    #video6{
+        grid-column: 2;
+        grid-row: 3;
+        padding-bottom: 3%;
+    }
+}
+
+
