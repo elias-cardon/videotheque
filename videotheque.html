@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,119 +8,121 @@
     <title>Accueil</title>
 </head>
 <body>
-    <header>
-        <div class="heading">
-            <img src="src/img/film-596009_1920.jpg" alt="photo illustrative" class="picture">
+<header>
+    <div class="heading">
+        <img src="src/img/film-596009_1920.jpg" alt="photo illustrative" class="picture">
         <h1>Vidéothèque</h1>
+    </div>
+    <nav>
+        <a href="videotheque.html"><span>Accueil</span></a>
+        <a href="categorie1.html"><span>Best Hits 2020</span></a>
+        <a href="categorieX.html"><span>Double Face</span></a>
+    </nav>
+</header>
+<main>
+
+    <div class="wrapper">
+        <div id="title1">
+            <a href="cateogie1.html"><h2>Best Hits 2020</h2></a>
         </div>
-        <nav>
-            <a href="videotheque.html"><span>Accueil</span></a>
-            <a href="categorie1.html"><span>Best Hits 2020</span></a>
-            <a href="categorieX.html"><span>Double Face</span></a>
-        </nav>
-    </header>
-    <main>
-        
-        <div class="wrapper">
-            <div id="title1">
-                <a href="cateogie1.html"><h2>Best Hits 2020</h2></a>
+        <div id="title2">
+            <a href="categorieX.html"><h2>Double Face</h2></a>
+        </div>
+        <section class="sections" id="section1">
+
+            <a href="#section2" class="arrow1"></a>
+
+            <div class="item" id="video1">
+                <video controls width="400" height="222">
+                    <source src="src/video/video1.mp4" type="video/mp4">
+                </video>
             </div>
-            <div id="title2">
-                <a href="categorieX.html"><h2>Double Face</h2></a>
+            <div class="item" id="video2">
+                <video controls width=400 height="222">
+                    <source src="src/video/video2.mp4" type="video/mp4">
+                </video>
             </div>
-            <section class="sections"  id="section1">
-                
-                 <a href="#section2" class="arrow1"></a>
-                 
-                <div class="item" id="video1">
-                    <video controls  width="400" height="222">
-                        <source src="src/video/video1.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="item" id="video2">
-                    <video controls  width=400 height="222">
-                        <source src="src/video/video2.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="item" id="video3">
-                    <video controls  width="400" height="222">
-                        <source src="src/video/video3.mp4" type="video/mp4">
-                    </video>
-                </div>
-                
-                <a href="#section2" class="arrow2"></a>
-            </section>
-            
-            <section class="sections" id="section2">
-                <a href="#section1" class="arrow1"></a>
+            <div class="item" id="video3">
+                <video controls width="400" height="222">
+                    <source src="src/video/video3.mp4" type="video/mp4">
+                </video>
+            </div>
 
-                <div class="item" id="video4" >
-                    <video controls poster="OTR.jpg" width="400" height="222">
-                        <source src="Old-Town-Road.mp4" type="video/mp4">
-                    </video>
-                    <p><strong>Old Town Road</strong></p>
-                </div>
+            <a href="#section2" class="arrow2"></a>
+        </section>
 
-                <div class="item" id="video5">
-                    <video controls width="400" height="222">
-                        <source src="video80/Alejandro.mp4" type="video/mp4">
-                    </video>
-                    <p><strong>Alejandro</strong></p>
-                </div>
+        <section class="sections" id="section2">
+            <a href="#section1" class="arrow1"></a>
 
-                <div class="item" id="video6"> 
-                    <video controls width="400" height="222">
-                        <source src="video80/Bang-Bang.mp4" type="video/mp4">
+            <div class="item" id="video4">
+                <video controls poster="OTR.jpg" width="400" height="222">
+                    <source src="Old-Town-Road.mp4" type="video/mp4">
+                </video>
+                <p><strong>Old Town Road</strong></p>
+            </div>
+
+            <div class="item" id="video5">
+                <video controls width="400" height="222">
+                    <source src="video80/Alejandro.mp4" type="video/mp4">
+                </video>
+                <p><strong>Alejandro</strong></p>
+            </div>
+
+            <div class="item" id="video6">
+                <video controls width="400" height="222">
+                    <source src="video80/Bang-Bang.mp4" type="video/mp4">
                     <p><strong>Bang Bang</strong></p>
-                    </div>
-              
-                <a href="#section1" class="arrow2"></a>
+            </div>
 
-            </section>
-        </div>
+            <a href="#section1" class="arrow2"></a>
 
-        <div class="descriptive_section">
-            <section>
-                <h4>Best Hits 2020</h4>
-                <article>
+        </section>
+    </div>
+
+    <div class="descriptive_section">
+        <section>
+            <h4>Best Hits 2020</h4>
+            <article>
                 <img src="src/img/dark-1850120_1920.jpg" alt="photo platine">
                 <p>Un classement des titres les plus écoutés de 2020 en France </p>
 
-                </article>
-            </section>
+            </article>
+        </section>
 
-            <section>
-                <h4>Double Face</h4>
-                <article>
-                <img src="src/img/black-cassette-tape-on-top-of-red-and-yellow-surface-1626481.jpg" alt="photo de cassette">
+        <section>
+            <h4>Double Face</h4>
+            <article>
+                <img src="src/img/black-cassette-tape-on-top-of-red-and-yellow-surface-1626481.jpg"
+                     alt="photo de cassette">
                 <p>Une rétrospective amusante des années 80 à ne pas manquer!</p>
 
-                </article>
-            </section>
-        </div>
+            </article>
+        </section>
+    </div>
 
-    </main>
-    <footer>
-        <div class="photo">
-           <img src="src/img/film-596009_1920.jpg" alt= "photo illustrative" class="picture">
-        </div>
+</main>
+<footer>
+    <div class="photo">
+        <img src="src/img/film-596009_1920.jpg" alt="photo illustrative" class="picture">
+    </div>
 
-        <div class="category">
-            <a href="videotheque.html"><span>Accueil</span></a>
-            <a href="categorie1.html"><span>Best Hits 2020</span></a>
-            <a href="categorieX.html"><span>Double Face</span></a>
-        </div>
+    <div class="category">
+        <a href="videotheque.html"><span>Accueil</span></a>
+        <a href="categorie1.html"><span>Best Hits 2020</span></a>
+        <a href="categorieX.html"><span>Double Face</span></a>
+    </div>
 
-        <div class="socialmedia">
-            <a href="https://fr-fr.facebook.com/" target="blank"><img src="src/img/facebook.png" alt="logo facebook" class="icon"></a>
-            <a href="https://www.instagram.com/?hl=fr" target="blank"><img src="src/img/instagram-sketched.png" alt="logo instagram" class="icon"></a>
-            <a href="https://twitter.com/login?lang=fr" target="blank"><img src="src/img/twitter.png" alt="logo twitter" class="icon"></a>
-        </div>
+    <div class="socialmedia">
+        <a href="https://fr-fr.facebook.com/" target="blank"><img src="src/img/facebook.png" alt="logo facebook"
+                                                                  class="icon"></a>
+        <a href="https://www.instagram.com/?hl=fr" target="blank"><img src="src/img/instagram-sketched.png"
+                                                                       alt="logo instagram" class="icon"></a>
+        <a href="https://twitter.com/login?lang=fr" target="blank"><img src="src/img/twitter.png" alt="logo twitter"
+                                                                        class="icon"></a>
+    </div>
 
-    </footer>
-    
-        
-  
-    
+</footer>
+
+
 </body>
 </html>
